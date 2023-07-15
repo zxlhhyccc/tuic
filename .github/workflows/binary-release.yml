@@ -88,6 +88,12 @@ jobs:
             cross: true
             file-ext:
 
+          - arch-name: arm-unknown-linux-musl
+            os: ubuntu-latest
+            target: arm-unknown-linux-musl
+            cross: true
+            file-ext:
+
           - arch-name: arm-unknown-linux-gnueabi
             os: ubuntu-latest
             target: arm-unknown-linux-gnueabi
@@ -100,15 +106,21 @@ jobs:
             cross: true
             file-ext:
 
-          - arch-name: mipsel-unknown-linux-gnu
+          - arch-name: mipsel-unknown-linux-musl
             os: ubuntu-latest
             target: mipsel-unknown-linux-gnu
             cross: true
             file-ext:
 
-          - arch-name: mipsel-unknown-linux-uclibc
+          - arch-name: mipsel-unknown-linux-gnueabi
             os: ubuntu-latest
-            target: mipsel-unknown-linux-uclibc
+            target: mipsel-unknown-linux-gnueabi
+            cross: true
+            file-ext:
+
+          - arch-name: mipsel-unknown-linux-gnueabihf
+            os: ubuntu-latest
+            target: mipsel-unknown-linux-gnueabihf
             cross: true
             file-ext:
 
