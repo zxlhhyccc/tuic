@@ -88,19 +88,19 @@ jobs:
             cross: true
             file-ext:
 
-          - arch-name: arm-unknown-linux-musl
+          - arch-name: armv5-unknown-linux-musl
             os: ubuntu-latest
             target: arm-unknown-linux-musl
             cross: true
             file-ext:
 
-          - arch-name: arm-unknown-linux-gnueabi
+          - arch-name: armv5-unknown-linux-gnueabi
             os: ubuntu-latest
             target: arm-unknown-linux-gnueabi
             cross: true
             file-ext:
 
-          - arch-name: arm-unknown-linux-gnueabihf
+          - arch-name: armv5-unknown-linux-gnueabihf
             os: ubuntu-latest
             target: arm-unknown-linux-gnueabihf
             cross: true
